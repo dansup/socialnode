@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\Social\User;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
