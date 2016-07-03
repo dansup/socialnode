@@ -13,8 +13,8 @@ class CreateProfileTable extends Migration
     public function up()
     {
         Schema::create('profile', function (Blueprint $table) {
-            $table->increments('id');
-            $table->integer('user_id')->unsigned();
+            $table->bigIncrements('id');
+            $table->bigInteger('user_id')->unsigned();
             $table->string('bio', 140)->nullable();
             $table->string('homepage')->nullable();
             $table->string('sex')->nullable();
