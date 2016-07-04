@@ -12,6 +12,7 @@ class Status extends Model
     {
       $id = $this->id;
       $username = $this->user->username;
+      return env('APP_URL')."/{$username}/status/{$id}";
     }
 
     public function user()
