@@ -178,6 +178,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        duxet\Rethinkdb\RethinkdbServiceProvider::class,
+
     ],
 
     /*

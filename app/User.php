@@ -4,6 +4,7 @@ namespace App;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use \duxet\Rethinkdb\Eloquent\Model;
 
 class User extends Authenticatable
 {
