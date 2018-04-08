@@ -1,3 +1,3 @@
-# socialnode - gnu/social clone
+# socialnode - federated social network
 
-not yet ready for use, this readme will be updated when it is.
+WIP - Still in early stage development.
